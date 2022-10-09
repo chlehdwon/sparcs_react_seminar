@@ -3,7 +3,9 @@
 
 
 SPARCS React Seminar 과제입니다.
+
 시험기간이라 기본에 충실하여 구현해보았습니다.
+
 https://mytodolist-won.netlify.app/
 
 # Project Summary
