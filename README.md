@@ -1,7 +1,6 @@
 # sparcs-react-seminar
 [![Netlify Status](https://api.netlify.com/api/v1/badges/738493f4-2b84-439e-ae7a-69f788ad1377/deploy-status)](https://app.netlify.com/sites/mytodolist-won/deploys)
 
-<img src="https://user-images.githubusercontent.com/68576681/194758100-09bf5be8-b7f1-425a-9638-ad36a6476d76.png">
 SPARCS React Seminar 과제입니다.\
 시험기간이라 기본에 충실하여 구현해보았습니다.\
 https://mytodolist-won.netlify.app/
@@ -13,3 +12,4 @@ https://mytodolist-won.netlify.app/
 * 체크박스를 통하여 중요도 별로 할 일을 볼 수 있습니다.
 * Netlify를 통하여 배포를 진행하였습니다.
 ***
+<img src="https://user-images.githubusercontent.com/68576681/194758100-09bf5be8-b7f1-425a-9638-ad36a6476d76.png">
