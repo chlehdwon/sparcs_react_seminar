@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import TodoItemList from './TodoItemList';
 import TodoInsert from './TodoInsert';
 import TodoFilter from './TodoFilter';
+import TodoHeader from './TodoHeader';
 import './App.css';
 
 const App = () => {
@@ -22,14 +23,6 @@ const App = () => {
       content: 'SQL과 함께 즐거운 시간',
       due: '2022-10-19',
       importance: 1,
-      show: 'true',
-    },
-    {
-      id: 3,
-      title: '네트워크 PA2',
-      content: '켄즈가 싫어요',
-      due: '2022-10-20',
-      importance: 2,
       show: 'true',
     },
   ]);
@@ -53,7 +46,7 @@ const App = () => {
   };
   return (
     <div className="App">
-      <h1> 나만의 투두리스트 플래너 </h1>
+      <TodoHeader></TodoHeader>
       <TodoInsert handleSubmit={handleSubmit}></TodoInsert>
       <TodoFilter handleChange={handleChange} filter={todofilter} />
       {todolists

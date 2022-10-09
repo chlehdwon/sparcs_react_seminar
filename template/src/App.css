@@ -4,3 +4,43 @@
   margin: 10px 25px;
   padding: 5px 20px;
 }
+
+.Background {
+  background-image: url('./img/header.jpg');
+  background-repeat: 'no-repeat';
+  background-position: 'center';
+  background-size: 'cover';
+  height: 150px;
+}
+
+.Filter {
+  margin: 25px 10px;
+}
+
+.Insert {
+  margin: 25px 10px;
+}
+
+.InsertHead {
+  margin: 0px 10px;
+}
+
+#todoTitle {
+  margin: 5px 0px;
+}
+
+#todoContent {
+  margin: 5px 0px;
+}
+
+#todoDue {
+  margin: 5px 0px;
+}
+
+#todoImportance {
+  margin: 0px 0px 5px 0px;
+}
+
+#errorMessage {
+  color: red;
+}

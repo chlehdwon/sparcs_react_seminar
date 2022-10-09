@@ -9,7 +9,7 @@ const TodoItemList = ({ id, title, content, due, importance, onRemove }) => {
   return (
     <div className="Todo">
       <h4 className="todo--title">{title}</h4>
-      <p className="todo--content">{content}</p>
+      <p className="todo--content">할일: {content}</p>
       <p className="todo--due">기한: {due}</p>
       <p className="todo--importance">중요도: {importanceMap[importance]}</p>
       <button onClick={onClick}>Delete</button>
