@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const importanceMap = { 1: '낮음', 2: '중간', 3: '높음' };
 
